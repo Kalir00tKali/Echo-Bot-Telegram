@@ -1,3 +1,10 @@
+
+
+#Production by Berlin
+#Telegram - @por0vos1k
+
+
+
 import logging  
 from telegram import Update
 from telegram.ext import CallbackContext
