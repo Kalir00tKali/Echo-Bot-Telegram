@@ -1,6 +1,7 @@
 #Production by Berlin
 #Telegram - @por0vos1k
 
+TOKEN = "text"
 
 import logging  
 from telegram import Update
@@ -34,7 +35,7 @@ def main():
     print("Start")
 
     updater = Updater(
-        token="text",
+        token=TOKEN,
         use_context=True,
         )
 
