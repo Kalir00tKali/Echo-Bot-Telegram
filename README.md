@@ -7,6 +7,6 @@ A simple Python Telegram bot that echoes your input. It's the result of completi
 
 ## How to use
 * Install the script
-* Edit TOKEN in file
-* Visit https://URL/set_webhook on your web browser to set up webhook.
-* Start chatting in Telegram and enjoy your echoes! :)
+* Edit TOKEN in file Echo-Bot.py
+* Download Telegram [https://desktop.telegram.org/]
+* Launch the bot!
