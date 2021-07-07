@@ -6,7 +6,7 @@ A simple Python Telegram bot that echoes your input. It's the result of completi
 * pyTelegramBotApi 3.7.4
 
 ## How to use
-* Install the script
-* Edit TOKEN in file Echo-Bot.py
 * [Download Telegram](https://desktop.telegram.org/)
+* Install the script
+* Edit `TOKEN` in file Echo-Bot.py
 * Launch the bot!
