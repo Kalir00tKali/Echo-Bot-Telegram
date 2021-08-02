@@ -1,15 +1,16 @@
-#Production by Famaxth
-#Telegram - @famaxth
-
-TOKEN = "text"
+# -*- coding: utf-8 -*-
 
 import logging  
+
 from telegram import Update
 from telegram.ext import CallbackContext
 from telegram.ext import Updater
 from telegram.ext import Filters
 from telegram.ext import MessageHandler
 from telegram.ext import CommandHandler
+
+
+TOKEN = "text" # Bot's token
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                     level=logging.INFO,
@@ -33,17 +34,15 @@ def chat(update: Update, context: CallbackContext):
 
 def main():
     print("Start")
-
     updater = Updater(
         token=TOKEN,
         use_context=True,
         )
-
     updater.dispatcher.add_handler(CommandHandler("start", start_bot))
     updater.dispatcher.add_handler(MessageHandler(Filters.text, chat))
-
     updater.start_polling()
     updater.idle()
+
 
 if __name__ == "__main__":
     logging.info("Bot started")
