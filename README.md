@@ -8,5 +8,5 @@ A simple Python Telegram bot that echoes your input. It's the result of completi
 ## How to use
 * [Download Telegram](https://desktop.telegram.org/)
 * Install the script
-* Edit `TOKEN` in file Echo-Bot.py
+* Edit `TOKEN` in file main.py
 * Launch the bot!
